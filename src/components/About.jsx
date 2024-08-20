@@ -5,7 +5,7 @@ import image11 from '../assests/image 11.png';
 const About = () => {
   return (
     <section className="px-4 py-8">
-      <div className="flex flex-col md:flex-row-reverse justify-end max-w-full h-auto md:h-[200px] mx-auto bg-blue-950 rounded-l-full rounded-r-md md:justify-items-end gap-4 md:gap-2 p-4">
+      <div className="flex flex-col md:flex-row-reverse justify-end max-w-full h-auto md:h-[200px] mx-auto bg-blue-950 rounded-l-full  md:justify-items-end gap-4 md:gap-2 p-4">
         <div className="text-white gap-5 mt-4 md:mt-10 text-sm">
           <h6 className="text-center md:text-left">Mr. Shoaib Butt</h6>
           <p className="text-center md:text-left">CEO</p>
