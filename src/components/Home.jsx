@@ -38,8 +38,8 @@ const Home = () => {
     console.log(form.current);
 
     emailjs
-      .sendForm("service_v1094ol", "template_vokx74a", form.current, {
-        publicKey: "osCQByqFDgrATCxG0",
+      .sendForm("service_id", "templata_id", form.current, {
+        publicKey: "Public_key",
       })
       .then(
         () => {
