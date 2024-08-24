@@ -27,7 +27,7 @@ function App() {
         <div className=' p-4 bg-slate-900 w-full'>
           <h2 className=' text-white text-center font-bold text-xl'>Major Sellable Airliines</h2>
         </div>
-        <div className='flex flex-wrap justify-center gap-12 mt-10'>
+        <div className='flex flex-wrap justify-center md:justify-around  lg:flex lg:flex-wrap lg:justify-center  gap-12 mt-10'>
               <div>
                     <img className='w-[200px]' src={Airblue} alt="Airblue" />  
               </div>
