@@ -2,7 +2,7 @@ import React from "react";
 import png from '../assests/image 6 (1).png';
 import image7 from '../assests/image 7.png';
 import pixel from '../assests/pexels-vince-2265876 2.png'
-import About from "./About";
+
 
 function Abouts() {
   return (
@@ -32,8 +32,8 @@ function Abouts() {
 
         <div className="w-full md:w-3/4 gap-4 text-sm">
           <div>
-            <h1 className="mx-auto md:flex justify-center font-bold leading-9 text-[20px] mt-3 text-center">
-              Welcome Travel Air International
+            <h1 className="mx-auto md:flex justify-center font-bold leading-9 text-[25px] mt-10 text-center">
+              Welcome Travel Air <br></br> International
             </h1>
           </div>
 
@@ -59,7 +59,7 @@ function Abouts() {
 
       <div>
      
-        <About />
+     
       </div>
     </section>
   );

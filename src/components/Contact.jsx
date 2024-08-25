@@ -3,7 +3,7 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen mx-6">
         <div className="flex-grow">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] ">
             <div className="w-full md:w-[350px] h-[500px] mb-6 md:mb-0 mx-0">

@@ -4,10 +4,10 @@ import "./Home.css";
 import emailjs from "@emailjs/browser";
 import image1 from "../assests/Z_slider_image.jpg";
 
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -53,15 +53,12 @@ const Home = () => {
 
   return (
     <>
-      <div className="main-div">
+      <div className="main-div bg-blue-950">
         <div className="NavbarSection">
           <div className="logoSection">
             Destination <br /> travel&Tours
           </div>
-          <div className="buttonSection">
-            <button>Login</button>
-            <button>Create Account</button>
-          </div>
+          
         </div>
         <div className="manu-button">
           <button>Home</button>
