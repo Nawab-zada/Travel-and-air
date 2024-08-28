@@ -3,7 +3,7 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col min-h-screen mx-6">
+      <div className="flex flex-col min-h-screen mx-10">
         <div className="flex-grow">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] ">
             <div className="w-full md:w-[350px] h-[500px] mb-6 md:mb-0 mx-0">
@@ -13,7 +13,7 @@ const Contact = () => {
                 alt="Man using laptop"
               />
             </div>
-            <div className="w-full md:w-[600px] p-6">
+            <div className="w-full md:w-[600px] p-6 mx-">
               <h2 className="text-2xl font-semibold mb-6 text-center py-4">
                 Know More About Travel Air International
               </h2>

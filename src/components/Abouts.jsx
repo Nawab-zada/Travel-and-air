@@ -6,7 +6,7 @@ import pixel from '../assests/pexels-vince-2265876 2.png'
 
 function Abouts() {
   return (
-    <section className="px-4 py-8">
+    <section className="px-4 py-8  bg-gray-100">
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="md:mx-10 flex justify-center">
           <img src={png} alt="png" className="w-full max-w-xs md:max-w-sm" />
@@ -54,7 +54,7 @@ function Abouts() {
       </div>
 
       <div>
-        <h5 className="mx-auto flex justify-center mt-12 font-bold text-[30px] text-center">Meet Our Team</h5>
+       
       </div>
 
       <div>
